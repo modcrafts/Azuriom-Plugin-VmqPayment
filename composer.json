@@ -1,0 +1,24 @@
+{
+    "name": "azuriom/vmqpayment",
+    "type": "azuriom-plugin",
+    "description": "Plugin to add Vmq to the shop's payment methods.",
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\VmqPayment\\": "src/"
+        }
+    },
+    "replace": {
+        "guzzlehttp/guzzle": "*",
+        "guzzlehttp/promises": "*",
+        "guzzlehttp/psr7": "*",
+        "monolog/monolog": "*",
+        "nesbot/carbon": "*",
+        "psr/container": "*",
+        "psr/event-dispatcher": "*",
+        "psr/http-client": "*",
+        "psr/http-factory": "*",
+        "psr/http-message": "*",
+        "psr/log": "*",
+        "psr/simple-cache": "*"
+    }
+}
