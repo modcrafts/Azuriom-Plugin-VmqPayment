@@ -2,7 +2,7 @@
     "id": "vmqpayment",
     "name": "VmqPayment",
     "description": "Plugin to add Vmq to the shop's payment methods.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "url": "https://github.com/modcrafts/Azuriom-Plugin-VmqPayment",
     "authors": [
         "MODcraft"
