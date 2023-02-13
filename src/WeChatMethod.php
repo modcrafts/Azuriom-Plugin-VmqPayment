@@ -102,7 +102,7 @@ class WeChatMethod extends PaymentMethod
 
     public function view()
     {
-        return 'shop::admin.gateways.methods.wechat';
+        return 'vmqpayment::admin.wechat';
     }
 
     public function rules()
